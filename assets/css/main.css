@@ -60,7 +60,7 @@
 
 	@media only screen and (max-width: 680px) {
 		#mainpage h1 a{
-			font-size: 50px;
+			font-size: 40px;
 		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
@@ -208,7 +208,7 @@
 
 	@media screen and (max-width: 960px) {
 		#mainpage h1 a{
-			font-size: 50px;
+			font-size: 40px;
 		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
@@ -239,7 +239,7 @@
 
 	@media screen and (max-width: 840px) {
 		#mainpage h1 a{
-			font-size: 50px;
+			font-size: 40px;
 		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
@@ -270,7 +270,7 @@
 
 	@media screen and (max-width: 736px) {
 		#mainpage h1 a{
-			font-size: 50px;
+			font-size: 40px;
 		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
@@ -776,7 +776,7 @@
 
 	@media screen and (max-width: 1260px) {
 		#mainpage h1 a{
-			font-size: 50px;
+			font-size: 40px;
 		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
