@@ -1,6 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @import url("font-awesome.min.css");
 
+
+/* dark blue: #0A2A50
+* light gray: #A1B6C7
+* white: #FFF
+*/
 
 /* Reset */
 
@@ -9,12 +14,27 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font-family: 'Oswald', sans-serif;
 		vertical-align: baseline;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
+	}
+
+	.navlink:hover{
+		color: #A1B6C7;
+		font-size: 20px;
+	}
+	.navlink{
+		transition: 200ms ease all;
+		color: #FFF;
+		font-weight: bold;
+	}
+
+	#logo{
+		font-size: 50px;
+		color: #FFF;
 	}
 
 	body {
@@ -1591,7 +1611,7 @@ video {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #437C17;
+		color: #0A2A50;
 		line-height: 1.25em;
 	}
 
@@ -1620,7 +1640,7 @@ video {
 
 	strong, b {
 		font-weight: 400;
-		color: #437C17;
+		color: #0A2A50;
 	}
 
 	em, i {
@@ -1638,7 +1658,7 @@ video {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #A4B6CA;
 			border-bottom-color: transparent;
 		}
 
@@ -1868,7 +1888,7 @@ video {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #A4B6CA;
 				}
 
 	ol.default {
@@ -1885,7 +1905,7 @@ video {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #437C17;
+		color: #0A2A50;
 		margin: 0 0 1em 0;
 	}
 
@@ -2001,7 +2021,7 @@ video {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #437C17;
+		background: #0A2A50;
 		color: #fff;
 		text-align: center;
 		vertical-align: middle;
@@ -2024,7 +2044,7 @@ video {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #A4B6CA;
 		}
 
 		input[type="button"].alt,
@@ -2106,26 +2126,99 @@ video {
 
 /* Header */
 
-	#header {
+#header {
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),  url("../../images/baker.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	color: #063058;
+	text-align: center;
+	padding: 0em 0 2em 0;
+	cursor: default;
+}
+
+	#header:before {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;
+	}
+
+	#header .inner {
 		position: relative;
-		background-image: url("../../images/baker.jpg");
+		top: 0px;
+		z-index: 1;
+		margin: 0;
+		display: inline-block;
+		vertical-align: 40px;
+	}
+
+	#header header {
+		display: inline-block;
+	}
+
+		#header header > p {
+			font-size: 1.25em;
+			margin: 0;
+		}
+
+	#header h1 {
+		color: #0A2A50;
+		font-size: 3em;
+		line-height: 1em;
+	}
+
+		#header h1 a {
+			color: #0A2A50;
+		}
+
+	#header .button {
+		display: inline-block;
+		border-radius: 100%;
+		width: 4.0em;
+		height: 4.0em;
+		line-height: 4.5em;
+		text-align: center;
+		font-size: 1.25em;
+		padding: 0;
+	}
+
+	#header hr {
+		top: 1.5em;
+		margin-bottom: 3em;
+		border-bottom-color: rgba(192, 192, 192, 0.35);
+	}
+
+		#header hr:before, #header hr:after {
+			background: rgba(192, 192, 192, 0.35);
+		}
+
+	#header footer {
+		margin: 1em 0 0 0;
+	}
+
+
+	#mainpage {
+		position: relative;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),  url("../../images/mainpage.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #437C17;
+		color: #063058;
 		text-align: center;
 		padding: 0em 0 2em 0;
 		cursor: default;
 	}
 
-		#header:before {
+		#mainpage:before {
 			content: '';
 			display: inline-block;
 			vertical-align: middle;
 			height: 100%;
 		}
 
-		#header .inner {
+		#mainpage .inner {
 			position: relative;
 			top: 0px;
 			z-index: 1;
@@ -2134,26 +2227,32 @@ video {
 			vertical-align: 40px;
 		}
 
-		#header header {
+		#mainpage header {
 			display: inline-block;
 		}
 
-			#header header > p {
+			#mainpage header > p {
 				font-size: 1.25em;
 				margin: 0;
 			}
 
-		#header h1 {
-			color: #437C17;
+		#mainpage h1 {
+			color: #0A2A50;
 			font-size: 3em;
 			line-height: 1em;
 		}
 
-			#header h1 a {
-				color: #437C17;
+			#mainpage h1 a {
+				color: #FFF;
+				font-size: 87px;
+				transition: all ease 200ms;
 			}
 
-		#header .button {
+			#mainpage h1 a:hover{
+				color: #A1B6C7;
+			}
+
+		#mainpage .button {
 			display: inline-block;
 			border-radius: 100%;
 			width: 4.0em;
@@ -2164,17 +2263,17 @@ video {
 			padding: 0;
 		}
 
-		#header hr {
+		#mainpage hr {
 			top: 1.5em;
 			margin-bottom: 3em;
 			border-bottom-color: rgba(192, 192, 192, 0.35);
 		}
 
-			#header hr:before, #header hr:after {
+			#mainpage hr:before, #mainpage hr:after {
 				background: rgba(192, 192, 192, 0.35);
 			}
 
-		#header footer {
+		#mainpage footer {
 			margin: 1em 0 0 0;
 		}
 
@@ -2189,7 +2288,7 @@ video {
 
 		body.homepage #header:after {
 			content: '';
-			background: #437C17;
+			background: #0A2A50;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2208,6 +2307,40 @@ video {
 		}
 
 	body.homepage.is-loading #header:after {
+		opacity: 1;
+	}
+
+	
+	body.homepage #mainpage {
+		height: 100vh;
+		min-height: 40em;
+	}
+
+		body.homepage #mainpage h1 {
+			font-size: 4em;
+		}
+
+		body.homepage #mainpage:after {
+			content: '';
+			background: #0A2A50;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			-moz-transition: opacity 2.5s ease-in-out;
+			-webkit-transition: opacity 2.5s ease-in-out;
+			-ms-transition: opacity 2.5s ease-in-out;
+			transition: opacity 2.5s ease-in-out;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
+		}
+
+	body.homepage.is-loading #mainpage:after {
 		opacity: 1;
 	}
 
@@ -2274,7 +2407,7 @@ video {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: inherit;
+					
 					text-decoration: none;
 					border: 0;
 					outline: 0;
@@ -2306,7 +2439,7 @@ video {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #A4B6CA;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2390,13 +2523,13 @@ video {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #437C17;
+		background: #0A2A50;
 		color: #fff;
 	}
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #437c17;
+			color: #0A2A50;
 		}
 
 		#footer header {
@@ -2479,7 +2612,8 @@ video {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: #0A2A50;
+				opacity: .75;
 			}
 
 		.carousel .forward {
