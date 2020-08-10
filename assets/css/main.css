@@ -772,15 +772,18 @@
 
 	}
 
+	@media screen and (max-width: 900px) {
+		#mainpage{
+			padding: 0em 0em 30em 0em;
+		}
+	}
 
 
 	@media screen and (max-width: 1260px) {
 		#mainpage h1 a{
 			font-size: 40px;
 		}
-		#mainpage{
-			padding: 0em 0em 30em 0em;
-		}
+
 
 		.row > * {
 			padding: 36px 0 0 36px;
@@ -995,7 +998,13 @@
 
 	}
 
+
+
 	@media screen and (max-width: 960px) {
+
+		#mainpage{
+			padding: 0em 0em 2em 0em;
+		}
 
 		.row > * {
 			padding: 32px 0 0 32px;
@@ -3245,4 +3254,10 @@ video {
 						margin-bottom: 2em;
 					}
 
+	}
+
+	@media screen and (max-width: 575px){
+		#mainpage{
+			padding: 0em 0em 30em 0em;
+		}
 	}
