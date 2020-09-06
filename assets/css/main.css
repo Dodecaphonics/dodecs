@@ -59,6 +59,14 @@
 	}
 
 	@media only screen and (max-width: 680px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage h1 a{
 			font-size: 40px;
 		}
@@ -146,6 +154,7 @@
 	}
 
 	@media screen and (max-width: 1680px) {
+		
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 1500px;
@@ -207,6 +216,14 @@
 	}
 
 	@media screen and (max-width: 960px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage h1 a{
 			font-size: 40px;
 		}
@@ -238,6 +255,14 @@
 	}
 
 	@media screen and (max-width: 840px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage h1 a{
 			font-size: 40px;
 		}
@@ -269,6 +294,14 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage h1 a{
 			font-size: 40px;
 		}
@@ -773,6 +806,14 @@
 	}
 
 	@media screen and (max-width: 900px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
 		}
@@ -1001,6 +1042,14 @@
 
 
 	@media screen and (max-width: 960px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 
 		#mainpage{
 			padding: 0em 0em 2em 0em;
@@ -1220,6 +1269,14 @@
 	}
 
 	@media screen and (max-width: 840px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 
 		.row > * {
 			padding: 32px 0 0 32px;
@@ -1435,6 +1492,14 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -2885,8 +2950,15 @@ video {
 				padding-left: 2em;
 				padding-right: 2em;
 			}
-
-	}
+.button-holder{
+	flex-direction: column;
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+}
+.a-button{
+	margin-bottom: 2vh;
+}
+		}
 
 /* Narrow */
 
@@ -2895,6 +2967,14 @@ video {
 	@media screen and (max-width: 840px) {
 
 		/* Basic */
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 
 			body, input, textarea, select {
 				font-size: 13pt;
@@ -2936,6 +3016,14 @@ video {
 	}
 
 	@media screen and (max-width: 736px) {
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 
 		/* Basic */
 
@@ -3320,6 +3408,14 @@ video {
 	}
 
 	@media screen and (max-width: 575px){
+		.button-holder{
+			flex-direction: column;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+		}
+		.a-button{
+			margin-bottom: 2vh;
+		}
 		#mainpage{
 			padding: 0em 0em 30em 0em;
 		}
