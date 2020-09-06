@@ -2950,14 +2950,6 @@ video {
 				padding-left: 2em;
 				padding-right: 2em;
 			}
-.button-holder{
-	flex-direction: column;
-	margin-bottom: 3vh;
-	margin-top: 3vh;
-}
-.a-button{
-	margin-bottom: 2vh;
-}
 		}
 
 /* Narrow */
