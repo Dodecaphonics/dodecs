@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	.media-title{
+		text-align: left;
+	}
+
 	iframe{
 		margin-left: 1vw;
 		margin-right: 1vw;
