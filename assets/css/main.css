@@ -18,6 +18,44 @@
 		vertical-align: baseline;
 	}
 
+	iframe{
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	.videoWrapper{
+		margin-top: 3vh;
+	}
+	h2{
+		text-align: center;
+	}
+	#main-video-title{
+		margin-bottom: 8vh;
+		margin-top: 8vh;
+	}
+	#main-video-iframe{
+		margin-bottom: 8vh;
+	}
+
+	.video-holder-list{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+
+	#main-holder-center{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.sidebarMedia{
+		margin-top: 3vh;
+	}
+
 			#mainpage h1 a:hover{
 			color: #A1B6C7;
 		}
@@ -59,6 +97,19 @@
 	}
 
 	@media only screen and (max-width: 680px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -216,6 +267,19 @@
 	}
 
 	@media screen and (max-width: 960px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -255,6 +319,19 @@
 	}
 
 	@media screen and (max-width: 840px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -294,6 +371,19 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -806,6 +896,19 @@
 	}
 
 	@media screen and (max-width: 900px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -821,6 +924,12 @@
 
 
 	@media screen and (max-width: 1260px) {
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		#mainpage h1 a{
 			font-size: 40px;
 		}
@@ -1042,6 +1151,19 @@
 
 
 	@media screen and (max-width: 960px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -1269,6 +1391,19 @@
 	}
 
 	@media screen and (max-width: 840px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -1492,6 +1627,19 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -1777,7 +1925,7 @@ video {
 	}
 
 	h2 {
-		font-size: 2.85em;
+		font-size: 4em;
 	}
 
 	h3 {
@@ -1939,6 +2087,10 @@ video {
 	}
 
 /* Sections/Article */
+
+.header-above-buttons{
+	margin-bottom: 2.5em;
+}
 
 	section, article {
 		margin-bottom: 3em;
@@ -2922,6 +3074,7 @@ video {
 			.wrapper {
 				padding-left: 2em;
 				padding-right: 2em;
+				padding-top: 10px;
 			}
 
 		/* Header */
@@ -2957,6 +3110,20 @@ video {
 /* Narrower */
 
 	@media screen and (max-width: 840px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 
 		/* Basic */
 		.button-holder{
@@ -3008,6 +3175,19 @@ video {
 	}
 
 	@media screen and (max-width: 736px) {
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
@@ -3400,6 +3580,19 @@ video {
 	}
 
 	@media screen and (max-width: 575px){
+		.video-holder-list{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			text-align: center;
+		}
+		.main-holder-center{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
 		.button-holder{
 			flex-direction: column;
 			margin-bottom: 3vh;
