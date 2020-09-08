@@ -2662,7 +2662,7 @@ video {
 
 	
 	body.homepage #mainpage {
-		height: 100vh;
+		height: 135vh;
 		min-height: 40em;
 	}
 
@@ -2695,6 +2695,14 @@ video {
 	}
 
 /* Nav */
+
+.icons-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 9vh;
+}
 
 	#nav {
 		position: absolute;
